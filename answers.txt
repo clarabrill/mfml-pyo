@@ -1,0 +1,38 @@
+Questions for GP 5/9/19
+
+Do my wav files have to be in the same folder that is playing .py
+"campersong/mistergood.wav" is better / yes
+
+What aspects of basic set up are always necessary
+
+What is command (?) to repeat previous code (?)
+up arrow, if you continue it scrolls
+
+Better way to shut down pi?
+
+code executed on raspberry pi - reads temp sensor and does computer equivalent of shouting at another computer - we call this shouting/talking an http request
+
+pi makes request, my  mac runs code that is meant to listen for requests in same language, language is not programming language it's a protocol
+
+web server is a piece of code / program designed to listen to these (http) requests, we call it 'http requests'
+
+We are living in http world (could have done fttp or other protocols, torrent, w/e)
+(ssh is another protocol, is a connection - terminal emulator)
+
+Web server code is server.py
+
+Ports are little virtual holes on computer that are available for listening to info
+Address to send data in and out - Used for communications between processes on computer and not on computer
+
+Http requests can have info attached, using to get info from pi to mac
+
+Gotta know https: method, headers, payload for requests
+Response has response code, headers, payload
+
+HTTP methods:
+GET - to get info
+	Go to website, on browser, implicitly issuing a GET request - starts everything - usually asking for info, expecting data to be in the response
+
+POST - to send info
+	Implied that you're attaching data w/ the request, up to web server whether you want data in response
+	Designed specifically for attaching data
