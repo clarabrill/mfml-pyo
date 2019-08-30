@@ -1,5 +1,5 @@
 # MFML Pyo concept for Juiceland
-Source code for real-time sample playback manipulation using celery, flask, pyo, and input from sensors on an RPi.
+Source code for real-time sample playback manipulation using flask, pyo, and input from sensors on an RPi.
 
 This project is used to facilitate working with Pyo, a dedicated Python module for digital signal processing. Instructions are given for Mac & Linux.
 
