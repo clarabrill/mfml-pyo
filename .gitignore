@@ -167,6 +167,22 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Custom ignores
+campersongs/
+pyostart/
+answers.txt
+bandone.py
+bandtwo.py
+Tempone.py
+Tempthree.py
+Tempzero.py
+testaudio.py
+testfx.py
+vidcheck.py
+vidone.py
+vidthree.py
+vidtwo.py
+
 # End of https://www.gitignore.io/api/audio,macos,python
 close
 
