@@ -1,4 +1,0 @@
-{
-	"celery_broker": "amqp://flask:flask@localhost:5672/flask_vhost",
-	"wav_file": "sound.wav"
-}
